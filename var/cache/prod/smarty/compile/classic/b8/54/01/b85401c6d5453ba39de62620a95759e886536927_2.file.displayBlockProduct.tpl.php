@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-14 14:02:10
+/* Smarty version 3.1.39, created on 2021-09-21 23:59:17
   from 'C:\xampp\htdocs\PS\modules\blockreassurance\views\templates\hook\displayBlockProduct.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6140813257cf88_18281028',
+  'unifunc' => 'content_614a47a5e66594_53495873',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6140813257cf88_18281028 (Smarty_Internal_Template $_smarty_tpl) {
+function content_614a47a5e66594_53495873 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="blockreassurance_product">
     <?php

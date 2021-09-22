@@ -23,7 +23,18 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 {extends file='page.tpl'}
-
+    {block name='page_header_container'}
+    <div class="row header-bg-grey">
+        <div class="col-md-6 col-sm-12 mt-3 pt-2">
+            <hr class="short-line">
+            <h4 class="mb-2 mt-2">Best Quality Products</h4>
+            <p class="huge-font font-weight-bold">We Print What <br> You Want!</p>
+            <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien.</p>
+            <button class="btn-official mt-2">GET STARTED ></button>
+        </div>
+        <div class="col-md-6 col-sm-12"><img class="" src="{$urls.img_ps_url}First_photo.png"></div>
+    </div>
+    {/block}
     {block name='page_content_container'}
       <section id="content" class="page-home">
         {block name='page_content_top'}{/block}

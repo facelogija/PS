@@ -2,3 +2,106 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+
+
+/* Setting header with logo section with none max-height. By default 50px */
+.m-height-none {
+    max-height: none !important;
+}
+/* changind header-nav class border by default was border-bottom: 2px solid #f1f1f1;*/
+#header .header-nav {
+    border-bottom: none !important;
+}
+
+.header-top {
+    border-bottom: none !important;
+}
+
+/* Cart background-color to none. By default #f1f1f1 */
+#header .header-nav .blockcart {
+    background: none !important;
+    border-bottom: none !important;
+}
+/* Extra atributes to class */
+.cart-products-count {
+    font-size: 12px;
+    padding: 2px 6.5px 2px 6.5px !important;
+    background-color: #ff5151 !important;
+    border-radius: 35px !important;
+    color: #fff !important;
+    margin-left: -15px;
+}
+
+/* Cart icon size, and padding for a correct vertical align with logo */
+.shopping-cart {
+    font-size: 35px !important;
+    padding-top: 15px !important;
+}
+
+.social-links-block ul {
+    margin-right: -10px;
+}
+
+social-links-icons:hover {
+    filter: url(#id-of-your-filter);
+}
+
+.social-links-block ul {
+    font-size: 40px !important;
+    padding-top: 24px !important;
+}
+
+.social-links-block ul i {
+    width: 20px !important;
+    height: 20px !important;
+    color: #415161;
+}
+
+.social-links-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.top-menu a{
+    font-weight: lighter !important;
+    font-size: 15px;
+}
+
+.float-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LINES */
+
+.short-line {
+    width: 10%;
+    border: 2px solid #ff5a44;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+.huge-font {
+    font-size: 4rem !important;
+    line-height: 1.1;
+}
+
+.btn-official {
+    color: #fff;
+    padding: 10px 35px 10px 35px;
+    background-color: #ff5151;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btn-official:hover {
+    background-color: #ff3f26;
+}
+
+.header-bg-grey {
+    background-color: rgba(242,245,247,0.87);
+}
+
+

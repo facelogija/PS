@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-13 13:49:55
+/* Smarty version 3.1.39, created on 2021-09-21 12:53:09
   from 'C:\xampp\htdocs\PS\modules\welcome\views\navbar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_613f2cd3729e85_78605439',
+  'unifunc' => 'content_6149ab8590afd1_49143084',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_613f2cd3729e85_78605439 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6149ab8590afd1_49143084 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="onboarding-navbar bootstrap">
   <div class="row text">

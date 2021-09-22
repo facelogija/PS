@@ -22,21 +22,39 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
+
 {block name='header_banner'}
-  <div class="header-banner">
+  <div class="header-banner header-bg-grey">
     {hook h='displayBanner'}
   </div>
 {/block}
-
 {block name='header_nav'}
-  <nav class="header-nav">
+  <nav class="m-height-none header-nav header-bg-grey">
     <div class="container">
-      <div class="row">
+      <div class="row mb-1 pt-1 align-middle">
         <div class="hidden-sm-down">
-          <div class="col-md-5 col-xs-12">
-            {hook h='displayNav1'}
+          <div class="col-md-5 col-xs-12" id="_desktop_logo">
+            {*{hook h='displayNav1'}*}
+            {if $page.page_name == 'index'}
+              <h1>
+                <a href="{$urls.base_url}">
+                  <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+                </a>
+              </h1>
+            {else}
+              <a href="{$urls.base_url}">
+                <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+              </a>
+            {/if}
           </div>
           <div class="col-md-7 right-nav">
+            <div class="align-bottom social-links-block">
+              <ul class="align-bottom">
+                <li class="d-inline"><a href="/"><img class="social-links-icons" src="{$urls.img_ps_url}facebook-square-brands.svg"></a></li>
+                <li class="d-inline"><a href="/"><img class="social-links-icons" src="{$urls.img_ps_url}instagram-square-brands.svg"></a></li>
+                <li class="d-inline"><a href="/"><i class="material-icons">search</i></a></li>
+              </ul>
+            </div>
               {hook h='displayNav2'}
           </div>
         </div>
@@ -55,23 +73,12 @@
 {/block}
 
 {block name='header_top'}
-  <div class="header-top">
+  <div class="header-top header-bg-grey">
     <div class="container">
        <div class="row">
-        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
-            {if $page.page_name == 'index'}
-              <h1>
-                <a href="{$urls.base_url}">
-                  <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-                </a>
-              </h1>
-            {else}
-                <a href="{$urls.base_url}">
-                  <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-                </a>
-            {/if}
-        </div>
-        <div class="col-md-10 col-sm-12 position-static">
+        {*<div class="col-md-2 hidden-sm-down">
+        </div>*}
+        <div class="float-center col-md-12 col-sm-12 position-static">
           {hook h='displayTop'}
           <div class="clearfix"></div>
         </div>

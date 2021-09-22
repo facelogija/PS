@@ -26,6 +26,9 @@
 <html lang="{$language.iso_code}">
 
   <head>
+   {block name='javascript_bottom' append}
+       <script src="https://use.fontawesome.com/d0a02e1d98.js"></script>
+   {/block}
     {block name='head'}
       {include file='_partials/head.tpl'}
     {/block}
